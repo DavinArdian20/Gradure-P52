@@ -1,0 +1,2043 @@
+.full-width-a {
+  width: 100%;
+}
+
+.full-height-a {
+  height: 100%;
+}
+
+.container-center-vertical {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  pointer-events: none;
+}
+
+.container-center-vertical>* {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal>* {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --alabaster: #fdfafa99;
+  --alabaster-2: #fdfafa33;
+  --alabaster-3: #fdfafacc;
+  --alabaster-4: #fdfafa66;
+  --alabaster-5: #fdfafa80;
+  --alabaster-6: #fdfafae6;
+  --background: #131313;
+  --black: #000000;
+  --black-2: #00000099;
+  --gallery: #f0eeed;
+  --red-orange: #ff33331a;
+  --red-orange-2: #ff3333;
+  --text: #fdfafa;
+  --font-size-l: 18px;
+  --font-size-m: 16px;
+  --font-size-s: 14px;
+  --font-size-xl: 20px;
+  --font-size-xxl: 24px;
+  --font-size-xxxl: 32px;
+  --font-size-xxxxl: 48px;
+  --font-family-lato: "Lato", Helvetica;
+  --font-family-montserrat: "Montserrat", Helvetica;
+  --font-family-playfair_display: "Playfair Display", Helvetica;
+}
+
+.lato-medium-alabaster-16px {
+  color: var(--text);
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.lato-bold-alabaster-20px {
+  color: var(--text);
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.lato-normal-alabaster-14px {
+  color: var(--alabaster);
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.lato-normal-alabaster-16px {
+  color: var(--alabaster);
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.lato-normal-white-14px {
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.lato-normal-alabaster-14px-2 {
+  color: var(--text);
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.lato-bold-alabaster-24px {
+  color: var(--text);
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.lato-normal-alabaster-18px {
+  color: var(--text);
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.lato-bold-alabaster-24px-2 {
+  color: var(--alabaster-4);
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.lato-medium-red-orange-12px {
+  color: var(--red-orange-2);
+  font-family: var(--font-family-lato);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.lato-normal-alabaster-14px-3 {
+  color: var(--alabaster-3);
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.lato-normal-alabaster-16px-2 {
+  color: var(--alabaster-3);
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.montserrat-bold-alabaster-32px {
+  color: var(--text);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.playfairdisplay-bold-alabaster-33-5px {
+  color: var(--text);
+  font-family: var(--font-family-playfair_display);
+  font-size: 33.5px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.lato-normal-black-16px {
+  color: var(--black-2);
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.playfairdisplay-bold-alabaster-48px {
+  color: var(--text);
+  font-family: var(--font-family-playfair_display);
+  font-size: var(--font-size-xxxxl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.lato-normal-white-16px {
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.lato-bold-alabaster-32px {
+  color: var(--text);
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.lato-bold-alabaster-36px {
+  color: var(--text);
+  font-family: var(--font-family-lato);
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.lato-normal-alabaster-16px-3 {
+  color: var(--alabaster-6);
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.lato-bold-alabaster-40px {
+  color: var(--text);
+  font-family: var(--font-family-lato);
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.about-features-works {
+  background-color: transparent;
+  letter-spacing: 0px;
+  line-height: 19px;
+  position: relative;
+  text-align: left;
+}
+
+.bg {
+  border: 1px solid;
+  border-color: var(--alabaster-2);
+  border-radius: 14px;
+  height: 28px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 28px;
+}
+
+.help-menu {
+  background-color: transparent;
+  letter-spacing: 3px;
+  line-height: 18px;
+  margin-top: -1px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.x455 {
+  background-color: transparent;
+  letter-spacing: 0px;
+  line-height: normal;
+  margin-top: -0.26px;
+  position: relative;
+  text-align: left;
+  width: fit-content;
+}
+
+.image-10 {
+  background-color: transparent;
+  height: 298px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 295px;
+}
+
+/* screen - homepage */
+.homepage {
+  background-color: var(--background);
+  height: 4694px;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 1440px;
+}
+
+.homepage .our-best-product-zYNucu {
+  background-color: transparent;
+  height: 64px;
+  left: 482px;
+  letter-spacing: 0px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 910px;
+  width: auto;
+}
+
+.homepage .our-arrival-product-zYNucu {
+  background-color: transparent;
+  height: 64px;
+  left: 438px;
+  letter-spacing: 0px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 1621px;
+  width: auto;
+}
+
+.homepage .reviews-from-our-buyers-zYNucu {
+  background-color: transparent;
+  height: 64px;
+  left: 104px;
+  letter-spacing: 0px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 3646px;
+  width: auto;
+}
+
+.homepage .line-4-zYNucu {
+  background-color: transparent;
+  height: 1px;
+  left: 101px;
+  object-fit: cover;
+  position: absolute;
+  top: 1790px;
+  width: 1240px;
+}
+
+.homepage .frame-60-zYNucu {
+  background-color: var(--text);
+  height: 797px;
+  left: 1px;
+  overflow: hidden;
+  position: absolute;
+  top: 2303px;
+  width: 1439px;
+}
+
+.homepage .browse-categories-QAyPLm {
+  background-color: transparent;
+  color: var(--black);
+  font-family: var(--font-family-playfair_display);
+  font-size: var(--font-size-xxxxl);
+  font-style: normal;
+  font-weight: 700;
+  height: 64px;
+  left: 459px;
+  letter-spacing: 0px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 53px;
+  width: auto;
+}
+
+.homepage .frame-61-QAyPLm {
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/664b2babf1e31c0ff6b9dcd9/releases/664b2e19c98f223642040178/img/frame-62.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 20px;
+  height: 289px;
+  left: 165px;
+  overflow: hidden;
+  position: absolute;
+  top: 145px;
+  width: 407px;
+}
+
+.homepage .professional___-corp-5SZ3PT {
+  background-color: transparent;
+  height: 495px;
+  left: 134px;
+  object-fit: cover;
+  position: absolute;
+  top: -198px;
+  width: 315px;
+}
+
+.homepage .women-5SZ3PT {
+  background-color: transparent;
+  height: 43px;
+  left: 36px;
+  letter-spacing: 0px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 27px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.homepage .frame-63-QAyPLm {
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/664b2babf1e31c0ff6b9dcd9/releases/664b2e19c98f223642040178/img/frame-63.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 20px;
+  height: 289px;
+  left: 702px;
+  overflow: hidden;
+  position: absolute;
+  top: 454px;
+  width: 574px;
+}
+
+.homepage .age-barros-r-bp-of-v-NV7EqC {
+  background-color: transparent;
+  height: 309px;
+  left: 86px;
+  object-fit: cover;
+  position: absolute;
+  top: -20px;
+  width: 488px;
+}
+
+.homepage .watch-NV7EqC {
+  background-color: transparent;
+  height: 43px;
+  left: 36px;
+  letter-spacing: 0px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 27px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.homepage .frame-62-QAyPLm {
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/664b2babf1e31c0ff6b9dcd9/releases/664b2e19c98f223642040178/img/frame-62.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 20px;
+  height: 289px;
+  left: 592px;
+  overflow: hidden;
+  position: absolute;
+  top: 145px;
+  width: 684px;
+}
+
+.homepage .harvey_-specter__-ho-buLwyL {
+  background-color: transparent;
+  height: 371px;
+  left: 184px;
+  object-fit: cover;
+  position: absolute;
+  top: -51px;
+  width: 512px;
+}
+
+.homepage .men-buLwyL {
+  background-color: transparent;
+  height: 43px;
+  left: 36px;
+  letter-spacing: 0px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 27px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.homepage .frame-64-QAyPLm {
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/664b2babf1e31c0ff6b9dcd9/releases/664b2e19c98f223642040178/img/frame-63.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 20px;
+  height: 289px;
+  left: 165px;
+  overflow: hidden;
+  position: absolute;
+  top: 454px;
+  width: 516px;
+}
+
+.homepage .herren_-sommer_atmun-QwQQr0 {
+  height: 341px;
+  top: -26px;
+}
+
+.homepage .herren_-sommer_atmun-LBv59Z {
+  height: 289px;
+  mix-blend-mode: multiply;
+  top: 0px;
+}
+
+.homepage .shoes-QwQQr0 {
+  background-color: transparent;
+  height: 43px;
+  left: 36px;
+  letter-spacing: 0px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 27px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.homepage .frame-162913-zYNucu {
+  background-color: transparent;
+  height: 499px;
+  left: 3px;
+  position: absolute;
+  top: 4195px;
+  width: 1441px;
+}
+
+.homepage .rectangle-1-RAM5xy {
+  background-color: var(--black);
+  height: 499px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1441px;
+}
+
+.homepage .line-8-RAM5xy {
+  background-color: transparent;
+  height: 1px;
+  left: 101px;
+  object-fit: cover;
+  position: absolute;
+  top: 366px;
+  width: 1240px;
+}
+
+.homepage .frame-51-RAM5xy {
+  align-items: flex-start;
+  background-color: transparent;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 19px;
+  left: 101px;
+  position: absolute;
+  top: 140px;
+}
+
+.homepage .frame-50-ql7CS2 {
+  align-items: flex-start;
+  background-color: transparent;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 25px;
+  position: relative;
+}
+
+.homepage .gradure-xN3fwq {
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.homepage .fashion-e-commerce-e-xN3fwq {
+  background-color: transparent;
+  letter-spacing: 0px;
+  line-height: 22px;
+  position: relative;
+  text-align: left;
+  width: 248px;
+}
+
+.homepage .social-ql7CS2 {
+  background-color: transparent;
+  height: 28px;
+  position: relative;
+  width: 148px;
+}
+
+.homepage .x1-ten87H {
+  background-color: transparent;
+  height: 28px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 28px;
+}
+
+.homepage .bg-LxXZsv {
+  background-color: var(--background);
+}
+
+.homepage .logo-twitter-2-LxXZsv {
+  background-color: transparent;
+  height: 9px;
+  left: 9px;
+  position: absolute;
+  top: 10px;
+  width: 11px;
+}
+
+.homepage .x2-ten87H {
+  background-color: transparent;
+  height: 28px;
+  left: 40px;
+  position: absolute;
+  top: 0px;
+  width: 28px;
+}
+
+.homepage .bg-zI79MU {
+  background-color: transparent;
+}
+
+.homepage .logo-fb-simple-2-zI79MU {
+  background-color: transparent;
+  height: 12px;
+  left: 11px;
+  position: absolute;
+  top: 8px;
+  width: 6px;
+}
+
+.homepage .x3-ten87H {
+  background-color: transparent;
+  height: 28px;
+  left: 80px;
+  position: absolute;
+  top: 0px;
+  width: 28px;
+}
+
+.homepage .bg-ScUjZc {
+  background-color: var(--background);
+}
+
+.homepage .logo-instagram-1-ScUjZc {
+  background-color: transparent;
+  height: 14px;
+  left: 7px;
+  position: absolute;
+  top: 7px;
+  width: 14px;
+}
+
+.homepage .x4-ten87H {
+  background-color: transparent;
+  height: 28px;
+  left: 120px;
+  position: absolute;
+  top: 0px;
+  width: 28px;
+}
+
+.homepage .bg-o8xt8e {
+  background-color: var(--background);
+}
+
+.homepage .logo-github-1-o8xt8e {
+  background-color: transparent;
+  height: 13px;
+  left: 8px;
+  position: absolute;
+  top: 7px;
+  width: 13px;
+}
+
+.homepage .frame-162904-RAM5xy {
+  align-items: flex-start;
+  background-color: transparent;
+  display: inline-flex;
+  gap: 100px;
+  left: 743px;
+  position: absolute;
+  top: 140px;
+}
+
+.homepage .frame-47-PTHhR6 {
+  align-items: flex-start;
+  background-color: transparent;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 26px;
+  position: relative;
+}
+
+.homepage .about-features-works-Ya5zfq {
+  width: fit-content;
+}
+
+.homepage .frame-52-PTHhR6 {
+  align-items: flex-start;
+  background-color: transparent;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 26px;
+  position: relative;
+}
+
+.homepage .about-features-works-icMfgV {
+  width: 149px;
+}
+
+.homepage .frame-48-PTHhR6 {
+  align-items: flex-start;
+  background-color: transparent;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 26px;
+  position: relative;
+}
+
+.homepage .about-features-works-rxqnXV {
+  width: fit-content;
+}
+
+.homepage .frame-53-RAM5xy {
+  background-color: transparent;
+  height: 48px;
+  left: 1051px;
+  position: absolute;
+  top: 382px;
+  width: 299px;
+}
+
+.homepage .x2000-2021-all-rights-reserved-RAM5xy {
+  background-color: transparent;
+  height: auto;
+  left: 90px;
+  letter-spacing: 0px;
+  line-height: normal;
+  position: absolute;
+  text-align: right;
+  top: 391px;
+  width: auto;
+}
+
+.homepage .frame-45-zYNucu {
+  align-items: center;
+  background-color: var(--text);
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  left: 104px;
+  overflow: hidden;
+  padding: 36px 64px;
+  position: absolute;
+  top: 4105px;
+  width: 1240px;
+}
+
+.homepage .subcribe-for-our-latest-offer-ZRmd0J {
+  background-color: transparent;
+  color: var(--background);
+  font-family: var(--font-family-playfair_display);
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  height: 94px;
+  letter-spacing: 0px;
+  line-height: 45px;
+  position: relative;
+  text-align: left;
+  width: 551px;
+}
+
+.homepage .frame-46-ZRmd0J {
+  align-items: flex-start;
+  background-color: transparent;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 14px;
+  position: relative;
+}
+
+.homepage .frame-3-cthBhR {
+  align-items: flex-start;
+  background-color: var(--background);
+  border-radius: 62px;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 12px;
+  overflow: hidden;
+  padding: 12px 16px;
+  position: relative;
+  width: 349px;
+}
+
+.homepage .enter-your-email-address-TD9TtP {
+  background-color: transparent;
+  color: var(--alabaster-4);
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.homepage .frame-4-cthBhR {
+  align-items: center;
+  background-color: var(--background);
+  border-radius: 62px;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 12px;
+  justify-content: center;
+  overflow: hidden;
+  padding: 12px 16px;
+  position: relative;
+  width: 349px;
+}
+
+.homepage .subscribe-qWdReb {
+  background-color: transparent;
+  letter-spacing: 0px;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.homepage .ellipse-207-zYNucu {
+  background: radial-gradient(50% 50% at 50% 50%,
+      rgba(141.0000067949295,
+        90.00000223517418,
+        25.000000409781933,
+        0.4899999833106996) 0%,
+      rgba(28.000000230968, 28.000000230968, 28.000000230968, 0.3499999940395355) 100%);
+  background-color: transparent;
+  border-radius: 150px;
+  height: 300px;
+  left: 928px;
+  position: absolute;
+  top: 221px;
+  width: 300px;
+}
+
+.homepage .group-513785-zYNucu {
+  background-color: transparent;
+  height: 407px;
+  left: 100px;
+  position: absolute;
+  top: 1716px;
+  width: 640px;
+}
+
+.homepage .midnight-elegance-suit-IbrWBU {
+  height: 405px;
+  left: 345px;
+  top: 0px;
+  width: 295px;
+}
+
+.homepage .frame-162884-40wAmF {
+  align-items: center;
+  background-color: transparent;
+  display: inline-flex;
+  gap: 13px;
+  left: 0px;
+  position: absolute;
+  top: 349px;
+}
+
+.homepage .frame-10-wt9STp {
+  gap: 5.312008380889893px;
+}
+
+.homepage .star-1-aThaO6 {
+  height: 16.72412109375px;
+  width: 17.5849609375px;
+}
+
+.homepage .star-2-aThaO6 {
+  height: 16.72412109375px;
+  width: 17.5849609375px;
+}
+
+.homepage .star-3-aThaO6 {
+  height: 16.72412109375px;
+  width: 17.5849609375px;
+}
+
+.homepage .star-4-aThaO6 {
+  height: 16.72412109375px;
+  width: 17.5849609375px;
+}
+
+.homepage .star-5-aThaO6 {
+  height: 16.72412109375px;
+  width: 8.79248046875px;
+}
+
+.homepage .frame-162888-40wAmF {
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/664b2babf1e31c0ff6b9dcd9/releases/664b2e19c98f223642040178/img/frame-162888@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 9px;
+  height: 298px;
+  left: 0px;
+  overflow: hidden;
+  position: absolute;
+  top: 0px;
+  width: 295px;
+}
+
+.homepage .image-10-9jvQKx {
+  background-color: transparent;
+  height: 298px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 295px;
+}
+
+.homepage .midnight-elegance-suit-40wAmF {
+  height: 24px;
+  left: 0px;
+  letter-spacing: 0px;
+  line-height: normal;
+  text-align: left;
+  top: 314px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.homepage .frame-162890-40wAmF {
+  align-items: center;
+  background-color: transparent;
+  display: inline-flex;
+  gap: 10px;
+  left: 0px;
+  position: absolute;
+  top: 376px;
+}
+
+.homepage .x289-a4e5Sk {
+  background-color: transparent;
+  letter-spacing: 0px;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  text-align: left;
+  width: fit-content;
+}
+
+.homepage .x349-a4e5Sk {
+  background-color: transparent;
+  letter-spacing: 0px;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  text-align: left;
+  text-decoration: line-through;
+  width: fit-content;
+}
+
+.homepage .frame-43-a4e5Sk {
+  align-items: center;
+  background-color: var(--red-orange);
+  border-radius: 62px;
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  overflow: hidden;
+  padding: 6px 14px;
+  position: relative;
+  width: 58px;
+}
+
+.homepage .x17-gcOAGC {
+  background-color: transparent;
+  letter-spacing: 0px;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.homepage .ignite-automatic-skeleton-IbrWBU {
+  height: 405px;
+  top: 2px;
+  width: 295px;
+}
+
+.homepage .frame-162882-hJK0aT {
+  align-items: center;
+  background-color: transparent;
+  display: inline-flex;
+  gap: 13px;
+  left: 0px;
+  position: absolute;
+  top: 349px;
+}
+
+.homepage .frame-10-2Wq29M {
+  gap: 5.312008380889893px;
+}
+
+.homepage .star-1-oxU3kI {
+  height: 16.72412109375px;
+  width: 17.5848388671875px;
+}
+
+.homepage .star-2-oxU3kI {
+  height: 16.72412109375px;
+  width: 17.5848388671875px;
+}
+
+.homepage .star-3-oxU3kI {
+  height: 16.72412109375px;
+  width: 17.5848388671875px;
+}
+
+.homepage .star-4-oxU3kI {
+  height: 16.72412109375px;
+  width: 17.5848388671875px;
+}
+
+.homepage .star-5-oxU3kI {
+  height: 16.72412109375px;
+  width: 17.5848388671875px;
+}
+
+.homepage .x55-2Wq29M {
+  background-color: transparent;
+  letter-spacing: 0px;
+  line-height: normal;
+  margin-top: -0.26px;
+  position: relative;
+  text-align: left;
+  width: fit-content;
+}
+
+.homepage .frame-162886-hJK0aT {
+  background-color: var(--black);
+  border-radius: 9px;
+  height: 298px;
+  left: 0px;
+  overflow: hidden;
+  position: absolute;
+  top: 0px;
+  width: 295px;
+}
+
+.homepage .image-8-QCVrRD {
+  background-color: transparent;
+  height: 298px;
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: 300px;
+}
+
+.homepage .ignite-automatic-skeleton-hJK0aT {
+  height: 24px;
+  letter-spacing: 0px;
+  line-height: normal;
+  text-align: left;
+  top: 314px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.homepage .frame-162891-hJK0aT {
+  align-items: center;
+  background-color: transparent;
+  display: inline-flex;
+  gap: 10px;
+  left: 0px;
+  position: absolute;
+  top: 376px;
+}
+
+.homepage .x269-9E4APr {
+  background-color: transparent;
+  letter-spacing: 0px;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  text-align: left;
+  width: fit-content;
+}
+
+.homepage .x299-9E4APr {
+  background-color: transparent;
+  letter-spacing: 0px;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  text-align: left;
+  text-decoration: line-through;
+  width: fit-content;
+}
+
+.homepage .frame-42-9E4APr {
+  align-items: center;
+  background-color: var(--red-orange);
+  border-radius: 62px;
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  overflow: hidden;
+  padding: 6px 14px;
+  position: relative;
+  width: 58px;
+}
+
+.homepage .x10-yduWfz {
+  background-color: transparent;
+  letter-spacing: 0px;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.homepage .frame-162905-zYNucu {
+  background-color: transparent;
+  height: 309px;
+  left: 897px;
+  position: absolute;
+  top: 1765px;
+  width: 444px;
+}
+
+.homepage .group-513787-iOextn {
+  background-color: transparent;
+  height: 207px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 448px;
+}
+
+.homepage .fresh-elegance-fqdPUn {
+  background-color: transparent;
+  height: 34px;
+  left: 0px;
+  letter-spacing: 0px;
+  line-height: 64px;
+  position: absolute;
+  text-align: right;
+  top: 0px;
+  width: 444px;
+}
+
+.homepage .discover-the-latest-fqdPUn {
+  left: 20px;
+  text-align: right;
+  top: 64px;
+}
+
+.homepage .frame-162899-zYNucu {
+  align-items: flex-start;
+  background-color: transparent;
+  border: 1px solid;
+  border-color: var(--alabaster-5);
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px #00000040;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 342px 24px;
+  height: 240px;
+  left: 104px;
+  overflow: hidden;
+  padding: 28px 32px;
+  position: absolute;
+  top: 3761px;
+  width: 400px;
+}
+
+.homepage .frame-10-cEG62z {
+  gap: 6.486780166625977px;
+}
+
+.homepage .star-1-Q8jjvl {
+  height: 20.4228515625px;
+  width: 21.4739990234375px;
+}
+
+.homepage .star-2-Q8jjvl {
+  height: 20.4228515625px;
+  width: 21.4739990234375px;
+}
+
+.homepage .star-3-Q8jjvl {
+  height: 20.4228515625px;
+  width: 21.4739990234375px;
+}
+
+.homepage .star-4-Q8jjvl {
+  height: 20.4228515625px;
+  width: 21.4739990234375px;
+}
+
+.homepage .star-5-Q8jjvl {
+  height: 20.4228515625px;
+  width: 21.4739990234375px;
+}
+
+.homepage .dewi-s-s7OQ1l {
+  background-color: transparent;
+  letter-spacing: 0px;
+  line-height: 22px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.homepage .he-delivery-was-incr-V0axN1 {
+  align-self: stretch;
+  background-color: transparent;
+  letter-spacing: 0px;
+  line-height: 22px;
+  position: relative;
+  text-align: left;
+}
+
+.homepage .frame-162901-zYNucu {
+  align-items: flex-start;
+  background-color: transparent;
+  border: 1px solid;
+  border-color: var(--alabaster-5);
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 342px 24px;
+  height: 240px;
+  left: 524px;
+  overflow: hidden;
+  padding: 28px 32px;
+  position: absolute;
+  top: 3761px;
+  width: 400px;
+}
+
+.homepage .frame-10-9Wit4x {
+  gap: 6.486780166625977px;
+}
+
+.homepage .star-1-SdlT6b {
+  height: 20.4228515625px;
+  width: 21.473876953125px;
+}
+
+.homepage .star-2-SdlT6b {
+  height: 20.4228515625px;
+  width: 21.473876953125px;
+}
+
+.homepage .star-3-SdlT6b {
+  height: 20.4228515625px;
+  width: 21.473876953125px;
+}
+
+.homepage .star-4-SdlT6b {
+  height: 20.4228515625px;
+  width: 21.473876953125px;
+}
+
+.homepage .star-5-SdlT6b {
+  height: 20.4228515625px;
+  width: 21.473876953125px;
+}
+
+.homepage .fitri-a-0Wgexo {
+  background-color: transparent;
+  letter-spacing: 0px;
+  line-height: 22px;
+  position: relative;
+  text-align: left;
+  width: 63px;
+}
+
+.homepage .the-product-quality-n6Oxmt {
+  align-self: stretch;
+  background-color: transparent;
+  letter-spacing: 0px;
+  line-height: 22px;
+  position: relative;
+  text-align: left;
+}
+
+.homepage .frame-162902-zYNucu {
+  align-items: flex-start;
+  background-color: transparent;
+  border: 1px solid;
+  border-color: var(--alabaster-5);
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 342px 24px;
+  left: 944px;
+  overflow: hidden;
+  padding: 28px 32px;
+  position: absolute;
+  top: 3761px;
+  width: 400px;
+}
+
+.homepage .frame-10-OBKmh9 {
+  gap: 6.486780166625977px;
+}
+
+.homepage .star-1-jPMj7I {
+  height: 20.4228515625px;
+  width: 21.473876953125px;
+}
+
+.homepage .star-2-jPMj7I {
+  height: 20.4228515625px;
+  width: 21.473876953125px;
+}
+
+.homepage .star-3-jPMj7I {
+  height: 20.4228515625px;
+  width: 21.473876953125px;
+}
+
+.homepage .star-4-jPMj7I {
+  height: 20.4228515625px;
+  width: 21.473876953125px;
+}
+
+.homepage .star-5-jPMj7I {
+  height: 20.4228515625px;
+  width: 21.473876953125px;
+}
+
+.homepage .rizky-s-l3pO46 {
+  background-color: transparent;
+  letter-spacing: 0px;
+  line-height: 22px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.homepage .im-extremely-pleased-bx9xwO {
+  align-self: stretch;
+  background-color: transparent;
+  letter-spacing: 0px;
+  line-height: 22px;
+  position: relative;
+  text-align: left;
+}
+
+.homepage .frame-162906-zYNucu {
+  background-color: transparent;
+  height: 309px;
+  left: 104px;
+  position: absolute;
+  top: 1054px;
+  width: 463px;
+}
+
+.homepage .peak-preference-DBxeL4 {
+  background-color: transparent;
+  height: 34px;
+  left: 0px;
+  letter-spacing: 0px;
+  line-height: 64px;
+  position: absolute;
+  text-align: left;
+  top: -1px;
+  width: 463px;
+}
+
+.homepage .discover-the-latest-DBxeL4 {
+  left: 0px;
+  text-align: left;
+  top: 63px;
+}
+
+.homepage .group-513786-zYNucu {
+  background-color: transparent;
+  height: 407px;
+  left: 730px;
+  position: absolute;
+  top: 1005px;
+  width: 610px;
+}
+
+.homepage .regalia-couture-suit-hZlXXe {
+  border-radius: 9px;
+  height: 405px;
+  overflow: hidden;
+  top: 2px;
+  width: 295px;
+}
+
+.homepage .frame-162881-h2lNrW {
+  align-items: center;
+  background-color: transparent;
+  display: inline-flex;
+  gap: 13px;
+  left: 0px;
+  position: absolute;
+  top: 349px;
+}
+
+.homepage .frame-10-OT4zAa {
+  gap: 5.312008380889893px;
+}
+
+.homepage .star-1-S8iK5y {
+  height: 16.72412109375px;
+  width: 17.5849609375px;
+}
+
+.homepage .star-2-S8iK5y {
+  height: 16.72412109375px;
+  width: 17.5849609375px;
+}
+
+.homepage .star-3-S8iK5y {
+  height: 16.72412109375px;
+  width: 17.5849609375px;
+}
+
+.homepage .star-4-S8iK5y {
+  height: 16.72412109375px;
+  width: 17.5849609375px;
+}
+
+.homepage .star-5-S8iK5y {
+  height: 16.72412109375px;
+  width: 8.79248046875px;
+}
+
+.homepage .regalia-couture-suit-h2lNrW {
+  height: 24px;
+  letter-spacing: 0px;
+  line-height: normal;
+  text-align: left;
+  top: 314px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.homepage .frame-162889-h2lNrW {
+  align-items: center;
+  background-color: transparent;
+  display: inline-flex;
+  gap: 10px;
+  left: 0px;
+  position: absolute;
+  top: 376px;
+}
+
+.homepage .x499-2KZCzZ {
+  background-color: transparent;
+  letter-spacing: 0px;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  text-align: left;
+  width: fit-content;
+}
+
+.homepage .image-7-h2lNrW {
+  background-color: transparent;
+  height: 298px;
+  left: -1px;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: 296px;
+}
+
+.homepage .opulent-elegance-suit-hZlXXe {
+  height: 407px;
+  left: 315px;
+  top: 0px;
+  width: 295px;
+}
+
+.homepage .frame-162883-0AiJ1F {
+  align-items: center;
+  background-color: transparent;
+  display: inline-flex;
+  gap: 13px;
+  left: 0px;
+  position: absolute;
+  top: 349px;
+}
+
+.homepage .frame-10-tbsF6C {
+  gap: 5.312008380889893px;
+}
+
+.homepage .star-1-CmIEjn {
+  height: 16.72412109375px;
+  width: 17.58489990234375px;
+}
+
+.homepage .star-2-CmIEjn {
+  height: 16.72412109375px;
+  width: 17.58489990234375px;
+}
+
+.homepage .star-3-CmIEjn {
+  height: 16.72412109375px;
+  width: 17.58489990234375px;
+}
+
+.homepage .star-4-CmIEjn {
+  height: 16.72412109375px;
+  width: 17.58489990234375px;
+}
+
+.homepage .star-5-CmIEjn {
+  height: 16.72412109375px;
+  width: 8.792449951171875px;
+}
+
+.homepage .frame-162887-0AiJ1F {
+  background-color: var(--gallery);
+  border-radius: 9px;
+  height: 298px;
+  left: 0px;
+  overflow: hidden;
+  position: absolute;
+  top: 0px;
+  width: 295px;
+}
+
+.homepage .image-9-I6nVIt {
+  background-color: transparent;
+  height: 298px;
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: 296px;
+}
+
+.homepage .opulent-elegance-suit-0AiJ1F {
+  height: 24px;
+  left: 0px;
+  letter-spacing: 0px;
+  line-height: normal;
+  text-align: left;
+  top: 313px;
+  width: 197px;
+}
+
+.homepage .x599-0AiJ1F {
+  background-color: transparent;
+  height: 29px;
+  left: 0px;
+  letter-spacing: 0px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 377px;
+  width: auto;
+}
+
+.homepage .navbar-zYNucu {
+  background-color: transparent;
+  height: 75px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1440px;
+}
+
+.homepage .rectangle-4626-7kXEN7 {
+  background-color: var(--background);
+  height: 75px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1440px;
+}
+
+.homepage .frame-19202-7kXEN7 {
+  background-color: transparent;
+  height: 48px;
+  left: 100px;
+  position: absolute;
+  top: 13px;
+  width: 1240px;
+}
+
+.homepage .gradure-G6W70d {
+  height: 22px;
+  left: 0px;
+  position: absolute;
+  top: 3px;
+  width: auto;
+}
+
+.homepage .frame-2-G6W70d {
+  align-items: center;
+  background-color: transparent;
+  display: inline-flex;
+  gap: 24px;
+  left: 210px;
+  position: absolute;
+  top: 13px;
+}
+
+.homepage .on-sale-deQFr0 {
+  background-color: transparent;
+  letter-spacing: 0px;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  text-align: left;
+  width: fit-content;
+}
+
+.homepage .new-arrivals-deQFr0 {
+  background-color: transparent;
+  letter-spacing: 0px;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  text-align: left;
+  width: fit-content;
+}
+
+.homepage .frame-5-G6W70d {
+  background-color: transparent;
+  height: 25px;
+  left: 1166px;
+  position: absolute;
+  top: 9px;
+  width: 64px;
+}
+
+.homepage .hero-zYNucu {
+  background-color: transparent;
+  height: 722px;
+  left: 0px;
+  position: absolute;
+  top: 75px;
+  width: 1440px;
+}
+
+.homepage .lucas-santos-hu-rn8-e-cq-adi-unsplash-1-ujdmUc {
+  background-color: transparent;
+  height: 732px;
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: -5px;
+  width: 1440px;
+}
+
+.homepage .rectangle-4625-ujdmUc {
+  background: linear-gradient(180deg,
+      rgba(19.0000007674098, 19.0000007674098, 19.0000007674098, 0) 68.66665482521057%,
+      rgb(19.0000007674098, 19.0000007674098, 19.0000007674098) 94.66665387153625%);
+  background-color: transparent;
+  height: 727px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1440px;
+}
+
+.homepage .experience-luxury-live-elegance-ujdmUc {
+  background-color: transparent;
+  color: var(--text);
+  font-family: var(--font-family-playfair_display);
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  height: 109px;
+  left: 100px;
+  letter-spacing: 0px;
+  line-height: 64px;
+  position: absolute;
+  text-align: left;
+  top: 183px;
+  width: 693px;
+}
+
+.homepage .welcome-to-gradure-y-ujdmUc {
+  background-color: transparent;
+  height: auto;
+  left: 100px;
+  letter-spacing: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 312px;
+  width: 545px;
+}
+
+.homepage .frame-14-ujdmUc {
+  align-items: center;
+  background-color: var(--background);
+  border: 1px solid;
+  border-color: var(--text);
+  display: flex;
+  gap: 12px;
+  height: 52px;
+  justify-content: center;
+  left: 100px;
+  overflow: hidden;
+  padding: 16px 54px;
+  position: absolute;
+  top: 430px;
+  width: 210px;
+}
+
+.homepage .shop-now-bTUL8N {
+  background-color: transparent;
+  letter-spacing: 0px;
+  line-height: normal;
+  margin-top: -0.5px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.homepage .frame-57-ujdmUc {
+  align-items: center;
+  background-color: transparent;
+  display: inline-flex;
+  gap: 32px;
+  left: 431px;
+  position: absolute;
+  top: 572px;
+}
+
+.homepage .frame-55-lP50VL {
+  align-items: center;
+  background-color: transparent;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.homepage .x100-LCGAh9 {
+  background-color: transparent;
+  letter-spacing: 0px;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.homepage .international-brands-LCGAh9 {
+  background-color: transparent;
+  letter-spacing: 0px;
+  line-height: 22px;
+  margin-top: -2px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.homepage .line-9-lP50VL {
+  align-self: stretch;
+  background-color: transparent;
+  object-fit: cover;
+  position: relative;
+  width: 1px;
+}
+
+.homepage .frame-54-lP50VL {
+  align-items: center;
+  background-color: transparent;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.homepage .x1000-hYT0Du {
+  background-color: transparent;
+  letter-spacing: 0px;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.homepage .high-quality-products-hYT0Du {
+  background-color: transparent;
+  letter-spacing: 0px;
+  line-height: 22px;
+  margin-top: -2px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.homepage .line-10-lP50VL {
+  align-self: stretch;
+  background-color: transparent;
+  object-fit: cover;
+  position: relative;
+  width: 1px;
+}
+
+.homepage .frame-56-lP50VL {
+  align-items: center;
+  background-color: transparent;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.homepage .x20000-aPFyQR {
+  background-color: transparent;
+  letter-spacing: 0px;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.homepage .happy-customers-aPFyQR {
+  background-color: transparent;
+  letter-spacing: 0px;
+  line-height: 22px;
+  margin-top: -2px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.homepage .frame-162904-zYNucu {
+  background-color: var(--black);
+  height: 443px;
+  left: 1px;
+  overflow: hidden;
+  position: absolute;
+  top: 3154px;
+  width: 1439px;
+}
+
+.homepage .shape-tCdBhv {
+  background-color: transparent;
+  height: 341px;
+  left: 564px;
+  position: absolute;
+  top: 52px;
+  width: 871px;
+}
+
+.homepage .threads-across-archi-tCdBhv {
+  background-color: transparent;
+  color: var(--text);
+  font-family: var(--font-family-playfair_display);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 700;
+  height: 55px;
+  left: 66px;
+  letter-spacing: 0px;
+  line-height: 32px;
+  position: absolute;
+  text-align: left;
+  top: 117px;
+  width: 541px;
+}
+
+.homepage .experience-nationwid-tCdBhv {
+  background-color: transparent;
+  height: auto;
+  left: 66px;
+  letter-spacing: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 192px;
+  width: 439px;
+}
+
+.homepage .discover-the-latest {
+  background-color: transparent;
+  height: auto;
+  letter-spacing: 0px;
+  line-height: 22px;
+  position: absolute;
+  width: 420px;
+}
+
+.homepage .frame {
+  background-color: transparent;
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.homepage .frame-10 {
+  align-items: flex-start;
+  background-color: transparent;
+  display: inline-flex;
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.homepage .frame-28 {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: transparent;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 12px;
+  position: relative;
+  width: 100%;
+}
+
+.homepage .frame-29 {
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 15px;
+  position: relative;
+}
+
+.homepage .frame-30 {
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  gap: 24px;
+  justify-content: space-around;
+  position: relative;
+}
+
+.homepage .frame-31 {
+  align-items: center;
+  background-color: transparent;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 4px;
+  position: relative;
+}
+
+.homepage .gradure {
+  background-color: transparent;
+  letter-spacing: 0px;
+  line-height: normal;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.homepage .herren_-sommer_atmun {
+  background-color: transparent;
+  left: 222px;
+  object-fit: cover;
+  position: absolute;
+  width: 258px;
+}
+
+.homepage .ignite-automatic-skeleton {
+  background-color: transparent;
+  left: 0px;
+  position: absolute;
+}
+
+.homepage .midnight-elegance-suit {
+  background-color: transparent;
+  position: absolute;
+}
+
+.homepage .opulent-elegance-suit {
+  background-color: transparent;
+  position: absolute;
+}
+
+.homepage .regalia-couture-suit {
+  background-color: transparent;
+  left: 0px;
+  position: absolute;
+}
+
+.homepage .star-1 {
+  background-color: transparent;
+  position: relative;
+}
+
+.homepage .star-2 {
+  background-color: transparent;
+  position: relative;
+}
+
+.homepage .star-3 {
+  background-color: transparent;
+  position: relative;
+}
+
+.homepage .star-4 {
+  background-color: transparent;
+  position: relative;
+}
+
+.homepage .star-5 {
+  background-color: transparent;
+  position: relative;
+}
